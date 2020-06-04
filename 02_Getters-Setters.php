@@ -4,6 +4,17 @@
 class Login {
 	private $email;
 	private $senha;
+	private $nome;
+
+	public function __construct($email, $senha, $nome) {
+		$this->nome = $nome;
+		$this->setEmail($email);
+		$this->setSenha($senha);
+	} //Fim do Construtor
+
+	public function getNome() {
+		return $this->nome;
+	}
 
 	public function getEmail() {
 		return $this->email;
@@ -28,11 +39,9 @@ class Login {
 	}
 }
 
-$logar = new Login();
-$logar->setEmail("matheusnery345/()@gmail.com"); //Setando Valores, ou seja, Usando valores
-$logar->setSenha("123456"); //Setando Valores, ou seja, Usando valores
+$logar = new Login("matheusnery345/()@gmail.com", "123456", "Matheus Nery");
 $logar->Logar();
 echo "<br>";
 echo $logar->getEmail() . "<br>";
-
+echo $logar->getNome();
 ?>
