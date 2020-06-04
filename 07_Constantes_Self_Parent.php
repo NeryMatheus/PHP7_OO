@@ -21,6 +21,7 @@ class Matheus extends Pessoa {
 		echo parent::nome; //Exibe a const da classe pai, no caso, a classe Pessoa
 	}
 }
+
 $matheus = new Matheus();
 $matheus->exibirNome();
 ?>

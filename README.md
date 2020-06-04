@@ -8,3 +8,6 @@ Aulas sobre PHP7 Orientado a Objeto
 - Abstração
 - Constantes, Self e Parent
 - Métodos e Atributos Estáticos
+- Polimorfismo
+- Interfaces
+- Namespace
