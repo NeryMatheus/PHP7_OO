@@ -5,8 +5,8 @@
 //Estudado alguns comandos do cmd
 
 /*Visto sobre o servido embutido do PHP{
-Para inicializar: php -S localhost: 8080     ou 80
-Para para: CRTL + C
+Para inicializar: php -S localhost: 8080 ou 80
+Para parar: CRTL + C
 }
  */
 

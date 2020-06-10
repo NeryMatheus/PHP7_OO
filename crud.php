@@ -12,7 +12,7 @@ $produto->setDescricao("Gamer");
 
 //ProdutoDao
 $produtodao = new \App\Model\ProdutoDao();
-$produtodao->delete(3);
+//$produtodao->delete(3);
 $produtodao->read();
 
 foreach ($produtodao->read() as $produto) {
