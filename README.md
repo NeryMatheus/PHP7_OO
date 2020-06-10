@@ -11,3 +11,14 @@ Aulas sobre PHP7 Orientado a Objeto
 - Polimorfismo
 - Interfaces
 - Namespace
+- Referencia e Clonagem de Objetos
+- Tratamento de Exceções
+- Associação
+- Agregação
+- Composição
+- Métodos Estáticos
+- Composer
+- Variáveis de Ambiente e Servidor Embutido
+- Composer Init, Require e Update
+- Composer Install
+- CRUD com PDO, Singleton e Autoload
